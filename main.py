@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 from telebot import types
 
-API_TOKEN = '5666003785:AAHIZskcV1ezi1b15iulfokSUU9tO12oBq8'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 conn = sqlite3.connect('moment/identifier.sqlite', check_same_thread=False)
